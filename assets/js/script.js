@@ -100,6 +100,13 @@ function renderStr(card, parent) {
     let strText = document.createElement('div');
     strText.textContent = card.str;
 
+    if(card.special) {
+        const sup = document.createElement('sup');
+        sup.textContent = "*";
+        strText.appendChild(sup);
+        str.classList.add('special');
+    }
+
     str.appendChild(strText);
     parent.appendChild(str);
 }

@@ -138,6 +138,14 @@
     top: 10px;
 }
 
+.card .inner-box .inner-right .str.special sup {
+    font-size: 20px;
+}
+
+.card .inner-box .inner-right .str.special div {
+    padding: 8px;
+}
+
 .card .inner-box .inner-right .str div {
     border-radius: 50%;
     line-height: 10px;
